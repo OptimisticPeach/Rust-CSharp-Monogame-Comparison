@@ -13,7 +13,7 @@ namespace CSharp_side
         static void Main(string[] args)
         {
             Vector3 cameraPosition = new Vector3(200, 300, 400);
-            Vector3 cameraTarget = new Vector3(200, 300, 400);
+            Vector3 cameraTarget = new Vector3(300, 200, 100);
             Vector3 cameraUp = Vector3.Up;
             List<Matrix> matrices = new List<Matrix>(1_000_000);
             List<long> ticks = new List<long>();
